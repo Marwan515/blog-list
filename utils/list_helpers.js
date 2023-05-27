@@ -44,8 +44,6 @@ const mostLikes = (blogs) => {
                       _.zipObject(['author', 'likes'], values)
                     )
                     .maxBy('likes')
-
-    console.log(result)
     return result
   }
 }

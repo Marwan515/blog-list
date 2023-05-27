@@ -17,9 +17,7 @@ const blogSchema = new mongoose.Schema({
     minLength: [10, "Url Length Must be more than 10"],
     required: [true, "url cant be blank!"]
   },
-  likes: {
-    type: Number,
-  }
+  likes: { type: Number, default: 0 }
 })
 
 blogSchema.set('toJSON', {

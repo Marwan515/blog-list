@@ -2,8 +2,7 @@ POST http://localhost:3001/api/blogs HTTP/1.1
 Content-Type: application/json
 
 {
-  "title": "example",
-  "author": "admin",
-  "url": "https://dev.to",
-  "likes": 43
+  "title":"Creating a RESTful API with Node.js and MongoDB From Dev.to",
+  "author":"Leandro Lima",
+  "url":"https://dev.to/limaleandro1999/creating-a-restful-api-with-nodejs-and-mongodb-3o7o"
 }
