@@ -1,9 +1,6 @@
-PUT http://localhost:3001/api/blogs/646dc3d591bbfb47a5f31e72 HTTP/1.1
+PUT http://localhost:3001/api/blogs/6473607c390703c853658741 HTTP/1.1
 Content-Type: application/json
 
 {
-  "title": "Creating a RESTful API with Node.js and MongoDB From Dev.to",
-  "author": "Leandro Lima",
-  "url": "https://dev.to/limaleandro1999/creating-a-restful-api-with-nodejs-and-mongodb-3o7o",
   "likes": 4
 }
